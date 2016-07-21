@@ -1,4 +1,7 @@
-# JAVA needs to be version 1.7u6 or better.
+#!/bin/bash
 
-CP="Dex.jar:`find lib -name \*.jar | xargs echo | sed 's/ /:/g'`"
-java -Xmx1024m -Xms1024m -cp $CP com.javafx.main.Main
+DIR="$(dirname "${BASH_SOURCE[0]}")"
+
+# JAVA needs to be version 1.8 or better.
+
+java -Xmx1024m -Xms1024m -jar $DIR/Dex.jar

@@ -1,10 +1,679 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9b02265-2240-4db7-9f90-c3d081a9a99b" name="Default" comment="" />
+    <list default="true" id="f9b02265-2240-4db7-9f90-c3d081a9a99b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/ca/utoronto/prefuse/1.0.0/prefuse-1.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/dex/dex.javafx/1.0.0/dex.javafx-1.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/xdb.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/empty" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/empty" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__au_com_bytecode_opencsv_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ca_utoronto_prefuse_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_guoyukun_jdbc_oracle_ojdbc6_11_2_0_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aquafx_project_aquafx_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_miglayout_miglayout_core_5_1_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_miglayout_miglayout_javafx_5_1_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dex_dex_javafx_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_regexp_jakarta_regexp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mx4j_mx4j_tools_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_3_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_platform_3_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_plantuml_plantuml_8035.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oracle_oracle_xdb_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bcel_bcel_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_48.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_48.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_8_40_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_2_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_2_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_2_1_5_01.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_jdbc_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_processing_core_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_python_jython_2_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rosuda_REngine_REngine_2_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rosuda_REngine_Rserve_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_7_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_simpleframework_simple_xml_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/catalina.policy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/catalina.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/jmxremote.access" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/jmxremote.password" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/server.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/tomcat-users.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.1-config/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assembly.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/ca/utoronto/prefuse/1.0.0/prefuse-1.0.0.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/ca/utoronto/prefuse/maven-metadata-local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/dex/dex.javafx/1.0.0/dex.javafx-1.0.0.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/dex/dex.javafx/maven-metadata-local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/libs.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/oracle/oracle.xdb/1.0.0/oracle.xdb-1.0.0.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/libs/oracle/oracle.xdb/maven-metadata-local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/DataFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/Dex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/DexData.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/DexItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/DexMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/DexProject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/collections/HierarchicalMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/base/WebDriverTask.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/base/WebTask.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/database/CreateJdbcTable.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/database/QueryJdbc.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/info/CompareDatasources.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/info/DescribeData.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/input/FileInput.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/input/JarInspector.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/input/MultiFileInput.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/input/ReadCsv.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/input/TextInput.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/prg/GroovyScript.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/prg/JavaScript.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/prg/JythonScript.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/prg/P5Script.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/prg/RScript.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/AddColumn.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/AddRowNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/ColumnFilter.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/GroupColumns.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/ReplaceAll.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/SelectColumns.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/SplitColumns.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/tablemanipulation/TrimColumns.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/DataRecorder.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/Documentation.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/Environment.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/ExecuteProcess.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/Google.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/GroovyFilter.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/Group.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/utilities/ViewData.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/AreaChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/BarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/LineChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/LineChartMultiples.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/Scatterplot.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/StackedAreaChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/StackedBarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/c3/StepChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/CircularHeat.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/ClusteredForce.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/CoOccurrence.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/Force.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/IndentedTree.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/NodeLinkTree.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/PartitionLayout.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/Sankey.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/StackedRadar.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/SteamGraph.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/d3/TensionMap.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/BarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/C3Player.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Chord.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ChordMultiples.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ClusteredForce.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Dendrogram.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/DendrogramMultiples.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/DyGraph.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ForceDiagram.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/MotionBarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/MotionChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/MotionCircleChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/MotionLineChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Network.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/OrbitalLayout.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ParCoor2Chord.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ParCoor2Dendrogram.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ParCoor2Table.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ParallelCoordinates.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/RadarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/RadialTree.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Sankey.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/SankeyParticles.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/ScatterPlot.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Sql2ParCoord.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Sql2Table.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/SqlQuery.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Sunburst.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/TitledTreemap.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/Treemap.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/dygraphs/LineChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/google/AreaChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/google/DiffBarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/google/DiffPieChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/google/Timeline.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/dexcharts/google/WordTree.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/javafx/JavaFXBarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/javafx/JavaFXBubbleChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/javafx/JavaFXPieChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/javafx/JavaFXXYChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/BarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/BubbleChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/CrossFilter.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/DonutChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/LineChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/MultiBarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/MultiHorBarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/PieChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/nvd3/StackedAreaChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/prefuse/PrefuseGraphView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/prefuse/PrefuseRadialGraphView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/prefuse/PrefuseStarburst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/prefuse/PrefuseTreeView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/table/BlueTable.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/table/DataTable.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/table/Grid.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/table/SearchableTable.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/uml/ClassDiagram.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/uml/SequenceDiagram.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/vis/AnimatedGraph3D.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/vis/BarChart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/vis/HierarchicalLayout.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/vis/Network.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/vis/vis/Timeline.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexEnvironment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexTaskState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/ParallelJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/SerialJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/editors/ChoiceBoxEditor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/observable/DataMonitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/observable/NameValuePair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/observable/SingleString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/DexOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/DexPropertySheet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/DexTaskItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/DexTaskList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/DexTaskListProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/DexTaskProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/DexTaskTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/EnvironmentEditingCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/NodeFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/scene/control/editor/CodeMirrorEditor.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/BooleanPropertyTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/CheckBoxTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/ChoiceBoxTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/HTMLEditorTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/LabelTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/ListSelectionViewTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/ListViewTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/PropertySheetTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/RadioButtonTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/StringListTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/StringPropertyTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/TextAreaTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/transform/TextFieldTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/types/SimpleListView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/ClassPathUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/DateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/DexUtil.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/JDOMUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/MapUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/ObjectUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/Options.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/PropertyUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/SqlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/TaskPropertyFactory.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/ThreadUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/WebViewUtil.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/example/ListOrganizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/example/SimpleDocking.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/example/TreeViewExample2.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Dex.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_ivy_ivy_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/processing.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rserve.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_2_42_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dex.0.8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dex.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/antlr4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aquafx-0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bcel-5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-lang3-3.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-math3-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/controlsfx-8.40.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/controlsfx-8.40.11-20151024.010657-12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/groovy-all-2.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/guava-17.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hsqldb.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jdom-2.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jython-2.5.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/miglayout-core-5.1-20150924.220012-180.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/miglayout-javafx-5.1-20150924.220035-180.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.20-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/neo4j-jdbc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/opencsv-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plantuml.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/processing/core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/processing/gluegen-rt.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/processing/jogl-all.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/renjin/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/rserve/REngine.1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/rserve/RserveEngine.1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium/selenium-server-standalone-2.42.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/simple-xml-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.8.11.2 (1).jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.8.11.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xstream-1.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/DataFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/Dex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/DexData.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/DexItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/DexMatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/DexProject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/collections/HierarchicalMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/base/WebDriverTask.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/base/WebTask.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/database/CreateJdbcTable.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/database/QueryJdbc.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/info/CompareDatasources.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/info/DescribeData.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/input/FileInput.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/input/JarInspector.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/input/MultiFileInput.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/input/ReadCsv.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/input/TextInput.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/prg/GroovyScript.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/prg/JavaScript.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/prg/JythonScript.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/prg/P5Script.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/prg/RScript.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/AddColumn.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/AddRowNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/ColumnFilter.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/GroupColumns.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/ReplaceAll.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/SelectColumns.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/SplitColumns.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/tablemanipulation/TrimColumns.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/DataRecorder.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/Documentation.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/Environment.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/ExecuteProcess.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/Google.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/GroovyFilter.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/Group.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/utilities/ViewData.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/AreaChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/BarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/LineChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/LineChartMultiples.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/Scatterplot.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/StackedAreaChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/StackedBarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/c3/StepChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/CircularHeat.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/ClusteredForce.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/CoOccurrence.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/Force.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/IndentedTree.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/NodeLinkTree.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/PartitionLayout.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/Sankey.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/StackedRadar.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/SteamGraph.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/d3/TensionMap.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/BarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/C3Player.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Chord.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ChordMultiples.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ClusteredForce.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Dendrogram.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/DendrogramMultiples.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/DyGraph.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ForceDiagram.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/MotionBarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/MotionChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/MotionCircleChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/MotionLineChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Network.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/OrbitalLayout.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ParCoor2Chord.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ParCoor2Dendrogram.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ParCoor2Table.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ParallelCoordinates.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/RadarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/RadialTree.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Sankey.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/SankeyParticles.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/ScatterPlot.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Sql2ParCoord.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Sql2Table.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/SqlQuery.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Sunburst.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/TitledTreemap.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/Treemap.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/dygraphs/LineChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/google/AreaChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/google/DiffBarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/google/DiffPieChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/google/Timeline.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/dexcharts/google/WordTree.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/javafx/JavaFXBarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/javafx/JavaFXBubbleChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/javafx/JavaFXPieChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/javafx/JavaFXXYChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/BarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/BubbleChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/CrossFilter.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/DonutChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/LineChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/MultiBarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/MultiHorBarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/PieChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/nvd3/StackedAreaChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/prefuse/PrefuseGraphView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/prefuse/PrefuseRadialGraphView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/prefuse/PrefuseStarburst.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/prefuse/PrefuseTreeView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/table/BlueTable.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/table/DataTable.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/table/Grid.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/table/SearchableTable.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/uml/ClassDiagram.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/uml/SequenceDiagram.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/vis/AnimatedGraph3D.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/vis/BarChart.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/vis/HierarchicalLayout.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/vis/Network.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/vis/vis/Timeline.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/DexEnvironment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/DexJob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/DexTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/DexTaskState.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/ParallelJob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/SerialJob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/editors/ChoiceBoxEditor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/observable/DataMonitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/observable/NameValuePair.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/observable/SingleString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/DexOptions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/DexPropertySheet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/DexTaskItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/DexTaskList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/DexTaskListProperty.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/DexTaskProperty.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/DexTaskTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/EnvironmentEditingCell.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/NodeFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/scene/control/editor/CodeMirrorEditor.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/BooleanPropertyTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/CheckBoxTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/ChoiceBoxTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/HTMLEditorTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/LabelTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/ListSelectionViewTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/ListViewTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/PropertySheetTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/RadioButtonTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/StringListTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/StringPropertyTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/TextAreaTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/transform/TextFieldTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/types/SimpleListView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/ClassPathUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/DateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/DexUtil.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/JDOMUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/MapUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/ObjectUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/Options.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/PropertyUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/SqlUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/TaskPropertyFactory.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/ThreadUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/WebViewUtil.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/example/ListOrganizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/example/SimpleDocking.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/example/TreeViewExample2.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dex.ico" afterPath="$PROJECT_DIR$/src/main/resources/Dex.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/Prefuse.jar" afterPath="$PROJECT_DIR$/src/libs/Prefuse.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/dex-javafx.jar" afterPath="$PROJECT_DIR$/src/libs/dex-javafx.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/ojdbc6.jar" afterPath="$PROJECT_DIR$/src/libs/ojdbc6.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/xdb.jar" afterPath="$PROJECT_DIR$/src/libs/oracle/oracle.xdb/1.0.0/oracle.xdb-1.0.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/Caspian.css" afterPath="$PROJECT_DIR$/src/main/resources/Caspian.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/Dex.css" afterPath="$PROJECT_DIR$/src/main/resources/Dex.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/Dex.css.bak" afterPath="$PROJECT_DIR$/src/main/resources/Dex.css.bak" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/JMetroDarkTheme.css" afterPath="$PROJECT_DIR$/src/main/resources/JMetroDarkTheme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/JMetroLightTheme.css" afterPath="$PROJECT_DIR$/src/main/resources/JMetroLightTheme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/d3.js" afterPath="$PROJECT_DIR$/src/main/resources/d3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/add.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/add.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/add_column.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/add_column.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/add_row_number.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/add_row_number.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/area_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/area_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/bar_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/bar_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/barchart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/barchart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/blue_table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/blue_table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/bubblechart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/bubblechart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/c3.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/c3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/chord.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/chord.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/circular_heat.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/circular_heat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/clustered_force.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/clustered_force.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/co_occurrence.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/co_occurrence.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/column_filter.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/column_filter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/compare_data.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/compare_data.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/create_jdbc_table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/create_jdbc_table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/cup.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/cup.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/d3.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/d3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/data_recorder.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/data_recorder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/data_table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/data_table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/database.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/database.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/database_table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/database_table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/delete.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/delete.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/dendrogram.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/dendrogram.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/describe_data.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/describe_data.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/dex_charts.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/dex_charts.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/documentation.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/documentation.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/dygraph.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/dygraph.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/env.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/env.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/environment.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/environment.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/execute_process.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/execute_process.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/file.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/file_input.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/file_input.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/folder.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/folder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/force_layout.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/force_layout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/google.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/google.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/groovy_filter.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/groovy_filter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/groovy_script.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/groovy_script.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/groovy_template.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/groovy_template.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/group.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/group.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/group_columns.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/group_columns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/indented_tree.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/indented_tree.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/info.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/info.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/infovis.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/infovis.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/input.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/input.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/jar_inspector.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/jar_inspector.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/javafx.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/javafx.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/javascript.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/javascript.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/jgraph_logo.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/jgraph_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/jython_script.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/jython_script.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/line_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/line_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/missing_icon.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/missing_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/motion_bar_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/motion_bar_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/motion_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/motion_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/motion_line_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/motion_line_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/multi_file_input.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/multi_file_input.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/network.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/network.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/node_link_tree.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/node_link_tree.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/nvd3.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/nvd3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/orbital_layout.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/orbital_layout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/output.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/output.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/p5_script.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/p5_script.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/par_coord2chord.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/par_coord2chord.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/par_coord2dendrogram.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/par_coord2dendrogram.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/par_coord2table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/par_coord2table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/parallel_coordinates.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/parallel_coordinates.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/partition_layout.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/partition_layout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/perfuse_radial_graph_view.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/perfuse_radial_graph_view.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/perfuse_tree_view.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/perfuse_tree_view.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/piechart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/piechart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/prefuse.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/prefuse.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/prefuse_starburst.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/prefuse_starburst.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/prefuse_tree_view.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/prefuse_tree_view.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/processing_script.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/processing_script.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/programming.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/programming.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/query_jdbc.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/query_jdbc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/r_script.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/r_script.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/radar_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/radar_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/radial_tree.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/radial_tree.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/read_csv.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/read_csv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/replace_all.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/replace_all.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/sankey_diagram.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/sankey_diagram.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/scatterplot.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/scatterplot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/searchable_table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/searchable_table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/select_columns.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/select_columns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/split_columns.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/split_columns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/sql2table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/sql2table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/sql_query.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/sql_query.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/stacked_area_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/stacked_area_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/stacked_bar_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/stacked_bar_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/stacked_radar.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/stacked_radar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/stats.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/stats.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/steamgraph.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/steamgraph.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/step_chart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/step_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/sunburst.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/sunburst.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/table.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/table_manipulation.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/table_manipulation.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/tension_map.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/tension_map.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/text_input.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/text_input.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/textfield_add.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/textfield_add.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/textfield_delete.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/textfield_delete.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/textfield_rename.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/textfield_rename.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/titled_treemap.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/titled_treemap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/tmi_script.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/tmi_script.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/treemap.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/treemap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/trim.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/trim.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/trim_columns.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/trim_columns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/utilities.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/utilities.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/view_data.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/view_data.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/view_raw_data.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/view_raw_data.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/visualization.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/visualization.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/web.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/web.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/web_driver.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/web_driver.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/web_view.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/web_view.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/write_csv.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/write_csv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icons/xychart.png" afterPath="$PROJECT_DIR$/src/main/resources/icons/xychart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-icons_222222_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-icons_2e83ff_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-icons_454545_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-icons_888888_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/src/main/resources/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/win7.css" afterPath="$PROJECT_DIR$/src/main/resources/win7.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/win7glass.bak.css" afterPath="$PROJECT_DIR$/src/main/resources/win7glass.bak.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/win7glass.css" afterPath="$PROJECT_DIR$/src/main/resources/win7glass.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/DexConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/DexConstants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/Utils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/exception/DexException.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/exception/DexException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/exception/ProjectNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/exception/ProjectNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/task/prg/TMIScript.groovy" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/task/prg/TMIScript.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/DexJobScheduler.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexJobScheduler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/DexJobState.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexJobState.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/DexTaskMetaData.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexTaskMetaData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/dex/wf/InternalTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/InternalTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/exception/ContainerException.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/exception/ContainerException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/exception/ElementNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/exception/ElementNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/exception/InvalidArgumentException.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/exception/InvalidArgumentException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/exception/MissingOptionException.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/exception/MissingOptionException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/exception/MissingPropertyException.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/exception/MissingPropertyException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/javafx/core/Javascript2JavaApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/javafx/core/Javascript2JavaApp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/simple/types/SimpleListSelectionView.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/simple/types/SimpleListSelectionView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/ArrayUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/ArrayUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/FxUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/FxUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/GroovyUtil.groovy" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/GroovyUtil.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/ListUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/ListUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/SortedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/SortedList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/SqlTimeFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/SqlTimeFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dexvis/util/StreamUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/dexvis/util/StreamUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/example/DoughnutChart.java" afterPath="$PROJECT_DIR$/src/main/java/example/DoughnutChart.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/example/FatPieChart.java" afterPath="$PROJECT_DIR$/src/main/java/example/FatPieChart.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/example/TreeViewExample.java" afterPath="$PROJECT_DIR$/src/main/java/example/TreeViewExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java8/ThreadTest.java" afterPath="$PROJECT_DIR$/src/main/java/java8/ThreadTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startDex.sh" afterPath="$PROJECT_DIR$/startDex.sh" />
+    </list>
     <ignored path="Dex.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +690,113 @@
     <favorites_list name="Dex" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87">
+              <caret line="213" column="69" selection-start-line="213" selection-start-column="69" selection-end-line="213" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/SerialJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assembly.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assembly.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2652">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RELEASE_NOTES.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RELEASE_NOTES.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DexTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding>
+                <marker date="1469102759152" expanded="true" signature="899:907" ph="/**...*/" />
+                <marker date="1469102759152" expanded="true" signature="13610:13681" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DexUtil.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/util/DexUtil.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +815,14 @@
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/scripts/groovy/worldQuery2.2.groovy" />
         <option value="$PROJECT_DIR$/scripts/groovy/worldQuery2.groovy" />
+        <option value="$PROJECT_DIR$/src/libs/libs.sh" />
+        <option value="$PROJECT_DIR$/target/jfx/app/lib/assembly.xml" />
+        <option value="$PROJECT_DIR$/startDex.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dexvis/util/DexUtil.groovy" />
+        <option value="$PROJECT_DIR$/assembly.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/RELEASE_NOTES.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -50,6 +833,61 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dex" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dex" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dex" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1955" />
@@ -64,7 +902,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -83,7 +921,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -102,7 +940,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: dex:dex.javafx:1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dex.javafx-1.0.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -112,43 +962,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="Maven: dex:dex.javafx:1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="dex.javafx-1.0.0.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dexvis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: dex:dex.javafx:1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dex.javafx-1.0.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dexvis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javafx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -162,37 +1018,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Maven: dex:dex.javafx:1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dexvis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="types" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="dex.javafx-1.0.0.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -200,29 +1034,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
+              <option name="myItemId" value="javafx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dexvis" />
+              <option name="myItemId" value="control" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,11 +1048,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="Maven: dex:dex.javafx:1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dex.javafx-1.0.0.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -244,7 +1064,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
+              <option name="myItemId" value="javafx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,110 +1079,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dexvis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dexvis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,9 +1094,15 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
     </key>
@@ -586,6 +1318,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -737,32 +1491,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1955" y="24" width="1565" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.4977019" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.4924491" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994455" sideWeight="0.5022981" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994455" sideWeight="0.30466184" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.4977019" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994455" sideWeight="0.69533813" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.4977019" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25673014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25279054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24950755" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39926064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39926064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -783,153 +1537,20 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$PROJECT_DIR$/build.xml">
-      <expanded value="true" />
-    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/Dex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="75" column="30" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/task/prg/RScript.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/groovy/worldQuery2.2.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/task/prg/TMIScript.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/task/prg/P5Script.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/processing/anaCube.pde">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/wf/DexJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/DataFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/groovy/ParseTibco.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/Dex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="75" column="30" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/processing/anaCube.pde">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/task/prg/TMIScript.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/task/prg/P5Script.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/task/prg/RScript.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/task/database/QueryJdbc.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dexvis/dex/wf/DexTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output.html" />
     <entry file="file://$PROJECT_DIR$/Dex.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,15 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +1600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,7 +1607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +1614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +1621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +1628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +1635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +1642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +1665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +1680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +1687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,15 +1701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +1716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,29 +1723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-816">
           <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RELEASE_NOTES.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="33" column="29" selection-start-line="20" selection-start-column="21" selection-end-line="33" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,6 +1749,173 @@
     <entry file="file://$PROJECT_DIR$/resources/textures/ball.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/dex/DataFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/processing/core/3.0.2/core-3.0.2.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dex.0.8.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-879">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/libs.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startDex.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dex_opts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/util/ArrayUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1352">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/DexTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <marker date="1469102759152" expanded="true" signature="899:907" ph="/**...*/" />
+            <marker date="1469102759152" expanded="true" signature="13610:13681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/util/DexUtil.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dexvis/dex/wf/SerialJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="213" column="69" selection-start-line="213" selection-start-column="69" selection-end-line="213" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RELEASE_NOTES.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="33" column="29" selection-start-line="20" selection-start-column="21" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2652">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -1245,6 +1975,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1264,7 +1995,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>Maven: org.codehaus.groovy:groovy-all:2.4.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

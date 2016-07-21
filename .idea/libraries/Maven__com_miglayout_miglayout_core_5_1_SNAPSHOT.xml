@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.miglayout:miglayout-core:5.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/miglayout/miglayout-core/5.1-SNAPSHOT/miglayout-core-5.1-20160720.220011-481.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/miglayout/miglayout-core/5.1-SNAPSHOT/miglayout-core-5.1-20160720.220011-481-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/miglayout/miglayout-core/5.1-SNAPSHOT/miglayout-core-5.1-20160720.220011-481-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

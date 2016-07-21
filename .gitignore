@@ -1,5 +1,4 @@
-dist
-output
+/dist
 .settings
 .groovy
 docs
@@ -7,8 +6,8 @@ docs.old
 textures
 .lock
 .project
-/bin
-src/com/dexvis/dex/broken
-src/com/dexvis/dex/deprecated
-scripts/expect
+.classpath
+/target
+/scripts/expect
 *.iml
+/Servers
